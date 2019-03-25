@@ -13,7 +13,7 @@ def pole(souradnice):
                 print(".", end = " ")
         print()
 
-def posun(souradnice,smer,ovoce,vyska,sirka):
+def posun(souradnice,smer,ovoce):
     """
     Zajišťuje pohyb hada.
     """
@@ -87,7 +87,7 @@ while True:
 
 
     print("Počet odehraných kol: ",pocitadloOvoce)
-    posun(souradnice,smer, ovoce,vyska,sirka)
+    posun(souradnice,smer, ovoce)
 
     pole(souradnice)
 
